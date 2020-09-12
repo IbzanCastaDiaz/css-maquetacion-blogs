@@ -200,7 +200,6 @@ footer p {
 }
 
 
-
 .blogpost-img-container {
     padding: 0 50px 40px;
 }
@@ -219,8 +218,33 @@ footer p {
 }
 
 
+.contact-main-container {
+    background-color: #cdd2da;
+    display: grid;
+    grid-template-columns:25px 1ft 25px 1ft;
+    align-items: center;
+    padding: 50px 75px;
+}
+.contact-main-container img{
+    width: 75%;
+}
 
-
+.contact-main-img1 {
+    grid-column: 1;
+    text-align: center;
+}
+.contact-left {
+    grid-column: 2;
+    padding: 30px;
+}
+.contact-main-img2 {
+    grid-column: 3;
+    text-align: center;
+}
+.contact-right {
+    grid-column: 4;
+    padding: 30px;
+}
 
 
 /* -----------fin */
